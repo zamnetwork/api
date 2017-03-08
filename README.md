@@ -17,38 +17,38 @@ The XIVDB API allows you to access various different game content in a very stru
 ## documentation
 
 ### search
-- [Search](https://github.com/viion/XIVDB-API/blob/master/Search.md)
-    - [Search Order Fields](https://github.com/viion/XIVDB-API/blob/master/Search-Order.md)
-- [Lore Finder](https://github.com/viion/XIVDB-API/blob/master/Tools-Lore-Finder.md)
+- [Search](Search.md)
+    - [Search Order Fields](Search-Order.md)
+- [Lore Finder](Tools-Lore-Finder.md)
 
 ### content
-- [Achievement](https://github.com/viion/XIVDB-API/blob/master/Content-Achievement.md)
-- [Action](https://github.com/viion/XIVDB-API/blob/master/Content-Action.md)
-- [Emote](https://github.com/viion/XIVDB-API/blob/master/Content-Emote.md)
-- [Enemy](https://github.com/viion/XIVDB-API/blob/master/Content-Enemy.md)
-- [Fate](https://github.com/viion/XIVDB-API/blob/master/Content-Fate.md)
-- [Gathering](https://github.com/viion/XIVDB-API/blob/master/Content-Gathering.md)
-- [Instance](https://github.com/viion/XIVDB-API/blob/master/Content-Instance.md)
-- [Item](https://github.com/viion/XIVDB-API/blob/master/Content-Item.md)
-- [Leve](https://github.com/viion/XIVDB-API/blob/master/Content-Leve.md)
-- [Minion](https://github.com/viion/XIVDB-API/blob/master/Content-Minion.md)
-- [Mount](https://github.com/viion/XIVDB-API/blob/master/Content-Mount.md)
-- [NPC](https://github.com/viion/XIVDB-API/blob/master/Content-NPC.md)
-- [Placename](https://github.com/viion/XIVDB-API/blob/master/Content-Placename.md)
-- [Quest](https://github.com/viion/XIVDB-API/blob/master/Content-Quest.md)
-- [Recipe](https://github.com/viion/XIVDB-API/blob/master/Content-Recipe.md)
-- [Shop](https://github.com/viion/XIVDB-API/blob/master/Content-Shop.md)
-- [Status](https://github.com/viion/XIVDB-API/blob/master/Content-Status.md)
-- [Title](https://github.com/viion/XIVDB-API/blob/master/Content-Title.md)
-- [Weather](https://github.com/viion/XIVDB-API/blob/master/Content-Weather.md)
+- [Achievement](Content-Achievement.md)
+- [Action](Content-Action.md)
+- [Emote](Content-Emote.md)
+- [Enemy](Content-Enemy.md)
+- [Fate](Content-Fate.md)
+- [Gathering](Content-Gathering.md)
+- [Instance](Content-Instance.md)
+- [Item](Content-Item.md)
+- [Leve](Content-Leve.md)
+- [Minion](Content-Minion.md)
+- [Mount](Content-Mount.md)
+- [NPC](Content-NPC.md)
+- [Placename](Content-Placename.md)
+- [Quest](Content-Quest.md)
+- [Recipe](Content-Recipe.md)
+- [Shop](Content-Shop.md)
+- [Status](Content-Status.md)
+- [Title](Content-Title.md)
+- [Weather](Content-Weather.md)
 
 ### characters
-- [Characters](https://github.com/viion/XIVDB-API/blob/master/Character.md)
+- [Characters](Character.md)
 
 ### base data
 
-- [Maps](https://github.com/viion/XIVDB-API/blob/master/Maps.md)
-- [Game Data](https://github.com/viion/XIVDB-API/blob/master/Data.md)
+- [Maps](Maps.md)
+- [Game Data](Data.md)
     - EXP Table
     - ClassJobs
     - Cabinet
