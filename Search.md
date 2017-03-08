@@ -29,7 +29,8 @@ You can then play around with the filters on the site and view the `Query String
 
 ## core parameters
 > `string=[some string]`
-eg: `string=allagan braclets of aiming`
+
+> eg: `string=allagan braclets of aiming`
 
 Search titles for some piece of content, use this to find item names, instance names, or even character names! For titles this will search both Male and Female titles.
 - **Character limit:** 2
@@ -47,7 +48,8 @@ Using a forward slash will split words by "OR", eg: `maiming/belt` will return s
 - Filibuster's Heavy Boots of **Maiming** (not a belt)
 
 > `one=[type]`
-`one=items`
+
+> `one=items`
 
 Filters a specific content type, the list of content types are:
 
