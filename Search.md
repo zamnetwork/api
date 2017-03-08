@@ -62,7 +62,7 @@ If ommited or set to "All", all content types are searched.
 
 Set the field in which to order the content by. All content has the field `id`, `name` and `patch`. `name` is special in that is the name based on your current language. So if you provide the parameter `language=fr` then ordering by `name` will be ordered by French names.
 
-Possible fields: https://github.com/viion/XIVDB-API/blob/master/Search-Order.md
+Possible fields: [Search Orders](Search-Order.md)
 
 > `order_direction=[asc|desc]`
 
