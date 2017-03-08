@@ -7,6 +7,7 @@
 The search allows you to search! You can find information for all main content types as well as characters. Search provides some small additional fields that can help you present user friendly views. The API also has an extremely robust filter system which is easy to grow (if you need more filters, let me know!)
 
 The search API is best used for:
+- Wildcard Content finding
 - Character searching
 - Visually pleasing search results for frontend applications
 
@@ -18,7 +19,7 @@ It is not good for:
 
 ## quick tip
 
-If you are building an application that requires the search then the best way to view what kind of things you can do is to use your browsers built in Developer Tools. If you go to the XIVDB's home page, open up developer tools, go to the: `Network`, filter requests by `XHR` and then click on one of the search options in XIVDB you will see the request. You can then click on that request to see the kinds of parameters that were sent.
+If you are building an application that requires the search then the best way to view what kind of things you can do is to use your browsers built in Developer Tools. If you go to the XIVDB's home page, open up developer tools, go to the: `Network` tab, filter requests by `XHR` and then click on one of the search options in XIVDB you will see the request. You can then click on that request to see the kinds of parameters that were sent.
 
 ![example](http://i.imgur.com/fQDKtQj.png)
 
