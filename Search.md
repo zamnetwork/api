@@ -47,6 +47,8 @@ Using a forward slash will split words by "OR", eg: `maiming/belt` will return s
 - Diabolic **Belt** of Casting (not maining)
 - Filibuster's Heavy Boots of **Maiming** (not a belt)
 
+---
+
 > `one=[type]`
 
 > `one=items`
@@ -61,6 +63,8 @@ Filters a specific content type, the list of content types are:
 
 If ommited or set to "All", all content types are searched.
 
+---
+
 > `order_field=[field]`
 
 Set the field in which to order the content by. All content has the field `id`, `name` and `patch`. `name` is special in that is the name based on your current language. So if you provide the parameter `language=fr` then ordering by `name` will be ordered by French names.
@@ -71,6 +75,8 @@ Possible fields: [Search Orders](Search-Order.md)
 
 Provide the direction for the results, this will either by: `ASC` or `DESC`, (case insensitive, can be lower case)
 
+---
+
 > `page=[x]`
 
 Which page to start on, if you implement pagination on your use-case then you will need to provide a page. When ommited it defaults to `1`
@@ -80,6 +86,8 @@ Which page to start on, if you implement pagination on your use-case then you wi
 Limit the number of results to return from the API.
 - **Maximum:** 90
 
+---
+
 > `strict=[on|off]`
 
 Toggle search strict mode, by default all string searches are wildcard and search both sides, for example:
@@ -88,11 +96,15 @@ Toggle search strict mode, by default all string searches are wildcard and searc
 
 The purpose of this is if you really need to use the search for auto-complete, then `strict=ON` would make it more obvious to the user. It also provides a faster response than without it for smaller values.
 
+---
+
 ## commands
 > `string=!patch+{patch version}`
 
 This is a special command in that it will return all new content for a specific patch, you can find the list of patches here: http://api.xivdb.com/data/patchlist?pretty=1, for example:
 - https://api.xivdb.com/search?string=patch+3.5
+
+---
 
 ## filters
 
