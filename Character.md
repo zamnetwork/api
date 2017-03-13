@@ -5,6 +5,11 @@
 |https://api.xivdb.com/character/[id]|
 |https://api.xivdb.com/character|
 
+**Note on language parameter**
+```
+Currently XIVDB parses the English version of Lodestone and stores some of the data in plain text. This includes: Titles, grand company names, races, gender. This will be English only. I am working on moving this to object state so it can be multiple languages.
+```
+
 ## content
 
 > /character/[id]
