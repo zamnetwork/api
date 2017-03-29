@@ -1,10 +1,10 @@
-|XIVDB API||
+|XIVDB API| |
 |---|---|
-|Endpoint|https://api.xivdb.com/|
-|Protocol|`https` and `http` supported.|
-|Language|**JSON**|
-|Methods|**GET** only|
-|SDK|Soon..|
+| Endpoint | https://api.xivdb.com/ |
+| Protocol| `https` and `http` supported. |
+| Language| **JSON** |
+| Methods | **GET** only |
+| SDK | Soon.. |
 
 ---
 
