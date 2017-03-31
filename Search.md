@@ -47,6 +47,17 @@ Using a forward slash will split words by "OR", eg: `maiming/belt` will return s
 - Diabolic **Belt** of Casting (not maining)
 - Filibuster's Heavy Boots of **Maiming** (not a belt)
 
+You can also search **characters**:
+
+> eg: `string=[character name]`
+> eg: `string=Premium Virtue`
+
+This includes partial names
+
+> eg: `string=Virtue`
+
+
+
 ---
 
 > `one=[type]`
