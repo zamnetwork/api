@@ -166,3 +166,13 @@ If you are looking for all of the game data then you may find it more useful to 
 If you need help with the API please don't hesitate to contact me, I am happy to answer all questions, fix any issues or add in additional information. Just bcause some data doesn't exist doesn't mean I can't add it!
 
 Please join the Discord: https://discord.gg/6XT7FTJ and there is a channel called `web-dev` for API Stuff
+
+---
+
+# rate limit
+
+The XIVDB has a 5 requests/second rate limit before it will begin denying requests. Please code respectfully, this means no `foreach` or `while` loops firing off requests, either use recurrsion, promises or callbacks.
+
+Here is a Javascript gist that shows bad/good query code:
+
+- https://gist.github.com/viion/d30684c402995b9f4b91d2e95faf1ef4
