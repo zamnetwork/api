@@ -57,12 +57,16 @@ The XIVDB API allows you to access various different game content in a very stru
     - Patch List (XIVDB Built in patch system)
     - *... request more ...*
 
-### lodestone / official forums
+### Lodestone Information + Dev Tracker
 
 - Lodestone Data - http://xivdb.com/assets/lodestone.json
 - Dev Tracker - http://xivdb.com/assets/devtracker.json
 
 Both the lodestone data and the dev tracker update every 5 minutes and are always in English. You can use these on your sites freely.
+
+### Examples
+
+- [chat bot type scenario](https://codepen.io/viion/full/xLYELO/)
 
 ---
 
