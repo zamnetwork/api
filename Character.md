@@ -7,10 +7,7 @@
 
 **Note on language parameter**
 ```
-Currently XIVDB parses the English version of Lodestone and stores some 
-of the data in plain text. This includes: Titles, grand company names, 
-races, gender. This will be English only. I am working on moving this to 
-object state so it can be multiple languages.
+Currently XIVDB parses the English version of Lodestone and stores some of the data in plain text. This includes: Titles, grand company names, races, gender. This will be English only. I am working on moving this to object state so it can be multiple languages.
 ```
 
 ## content
@@ -67,16 +64,9 @@ eg: https://api.xivdb.com/character/730968?data=achievements_possible
 
 **Note regarding restricted achievements**
 ```
-Some achievements are exclusive, for example a character can only get the 
-"Leaving [nation]" achievement for the town nation they joined when the 
-character was created. For 1.0 characters they can have 2 of the 3 nation 
-achievements (as players could change nation in 2.0 release). Characters 
-created after 2.0 can only get 1 of the 3 achievements. Lodestone will 
-always show all 3 achievements as possible to obtain.
+Some achievements are exclusive, for example a character can only get the "Leaving [nation]" achievement for the town nation they joined when the character was created. For 1.0 characters they can have 2 of the 3 nation achievements (as players could change nation in 2.0 release). Characters created after 2.0 can only get 1 of the 3 achievements. Lodestone will always show all 3 achievements as possible to obtain.
 
-You would need to handle this manually in your application as XIVDB currently 
-does not do anything about it (will do at some point). If SE ever fix their 
-achievements pages, the route will automatically reflect the correct achievements.
+You would need to handle this manually in your application as XIVDB currently does not do anything about it (will do at some point). If SE ever fix their achievements pages, the route will automatically reflect the correct achievements.
 ```
 
 ---
