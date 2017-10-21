@@ -49,15 +49,11 @@ Get all recorded gearsets on the character. XIVDB saves gearsets for each class.
 
 - eg: https://api.xivdb.com/character/730968?data=gearsets
 
----
-
 > `data=achievements`
 
 Get all achievements for a character
 
 - eg: https://api.xivdb.com/character/730968?data=achievements
-
----
 
 > `data=achievements_possible`
 
@@ -70,8 +66,6 @@ Get a list of achievements ID that this character can possible get. As of March 
 |Some achievements are exclusive, for example a character can only get the "Leaving [nation]" achievement for the town nation they joined when the character was created. For 1.0 characters they can have 2 of the 3 nation achievements (as players could change nation in 2.0 release). Characters created after 2.0 can only get 1 of the 3 achievements. Lodestone will always show all 3 achievements as possible to obtain.
 
 You would need to handle this manually in your application as XIVDB currently does not do anything about it (will do at some point). If SE ever fix their achievements pages, the route will automatically reflect the correct achievements.|
-
----
 
 > `data=achievements_obtained`
 
