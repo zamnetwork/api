@@ -33,15 +33,11 @@ Get characters timeline events
 
 eg: https://api.xivdb.com/character/730968?data=events
 
----
-
 > `data=tracking`
 
 Get characters timeline tracking events, these are things such as name changes, race changes, server changes, etc.
 
 - eg: https://api.xivdb.com/character/730968?data=tracking
-
----
 
 > `data=gearsets`
 
