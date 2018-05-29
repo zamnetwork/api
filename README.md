@@ -175,7 +175,7 @@ Please join the Discord: https://discord.gg/6XT7FTJ and there is a channel calle
 
 # rate limit
 
-The XIVDB has a 5 requests/second rate limit before it will begin denying requests. Please code respectfully, this means no `foreach` or `while` loops firing off requests, either use recurrsion, promises or callbacks.
+The XIVDB has a 15 requests/second rate limit before it will begin denying requests. Please code respectfully, this means no `foreach` or `while` loops firing off requests, either use recurrsion, promises or callbacks.
 
 Here is a Javascript gist that shows bad/good query code:
 
